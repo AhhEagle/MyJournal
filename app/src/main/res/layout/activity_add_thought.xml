@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the activity to input your thoughts -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oladimeji.myjournal.AddThoughtActivity">
+
+    <!-- Date input field -->
+    <EditText
+        android:id="@+id/date_thought"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/date"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <!-- Time input field -->
+    <EditText
+        android:id="@+id/time_thought"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/time"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Thoughts to be entered input field input field -->
+        <EditText
+            android:id="@+id/thought_entered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="start"
+            android:hint="@string/share_thoughts"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </ScrollView>
+
+
+</LinearLayout>

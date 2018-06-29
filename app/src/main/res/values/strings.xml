@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyJournal</string>
+    <string name="main_activity_name">All Thoughts</string>
+    <string name="add_thoughts_activity_name">MyJournal</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    <string name="share_thoughts">Describe Your Thoughts/Mood</string>
+    <string name="add_thoughts">Add a thought</string>
+    <string name="thoughts_list">My Journal</string>
+    <string name="edit_thought">Edit Thought</string>
+    <string name="error_save">There was an error while saving.Unable to save</string>
+    <string name="save_successful">New Thought successfully added</string>
+    <string name="error_update">Error while updating,please try again</string>
+    <string name="update_successful">Thought updated</string>
+    <string name="action_save">Save</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="empty_view_subtitle_text">Get started by adding a thought</string>
+    <string name="empty_view_title_text">Never Forget a memory</string>
+</resources>

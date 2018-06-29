@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The app branding color for the app bar  -->
+    <color name="colorPrimary">#00FF00</color>
+    <!-- Darker variant for the status bar and contextual app bars  -->
+    <color name="colorPrimaryDark"> #008000</color>
+    <!-- Accent color for UI controls like checkboxes and text fields -->
+    <color name="colorAccent">#00FF00</color>
+    <!-- Background color for the fields to be displayed-->
+    <color name="background_displayed">#008000</color>
+    <!-- Text content color -->
+    <color name="text_displayed">#ffffff</color>
+
+</resources>

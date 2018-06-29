@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This Linear layout contains a single item  in the list of thoughts displayed
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- TextView to display the date the thought was entered -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_displayed"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/text_displayed"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <!-- TextView to display the time the thought was entered -->
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_displayed"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/text_displayed"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <!-- TextView to display the thought entered -->
+
+    <TextView
+        android:id="@+id/thoughts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_displayed"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:maxLines="40"
+        android:textColor="@color/text_displayed"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+
+</LinearLayout>
